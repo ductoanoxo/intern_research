@@ -14,14 +14,14 @@ dotnet-learning_18-6/
 │   ├── appsettings.json        # Cấu hình log và host
 │   ├── Dockerfile              # Cấu hình Docker build tối ưu (Multi-stage)
 │   └── start.sh                # Shell script tự động build và chạy container
-├── lythuyet_dotnet8.md         # Báo cáo lý thuyết nghiên cứu chi tiết (Markdown)
-├── lythuyet_dotnet8.docx       # Báo cáo lý thuyết (File Word gốc)
-└── README.md                   # Tài liệu hướng dẫn này
+└── docs/                       # Thư mục tài liệu lý thuyết
+    ├── dotnet8.docx            # Báo cáo lý thuyết (File Word gốc)
+    └── lythuyet_dotnet8.md     # Báo cáo lý thuyết nghiên cứu chi tiết (Markdown)
 ```
 
 ---
 
-## 📝 Nội dung nghiên cứu chính (`lythuyet_dotnet8.md`)
+## 📝 Nội dung nghiên cứu chính (`docs/lythuyet_dotnet8.md`)
 Tài liệu nghiên cứu lý thuyết bao gồm 13 phần chi tiết về:
 * **Hệ sinh thái .NET 8** và phân biệt vai trò của các framework con (ASP.NET Core, EF Core...).
 * **Ứng dụng của .NET 8** trong các hệ thống doanh nghiệp (ERP, CRM, Core Banking...).
@@ -39,7 +39,7 @@ Dự án Demo được đóng gói hoàn toàn qua **Docker**, bạn không cầ
 Di chuyển vào thư mục dự án và cấp quyền thực thi cho file `start.sh`, sau đó chạy script:
 
 ```bash
-cd DemoApi/
+cd dotnet-learning_18-6/DemoApi/
 chmod +x start.sh
 ./start.sh
 ```
