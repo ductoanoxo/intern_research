@@ -7,6 +7,8 @@
   3. **Entity Framework Core (Database First)** (Cơ chế Scaffold sinh code từ DB SQLite có sẵn, Change Tracking, Transaction).
 * **Tiến độ tự đánh giá:** 100% (Đã hoàn thành phần nghiên cứu lý thuyết và cài đặt thành công Mini Project chạy trên Docker, kết nối dữ liệu an toàn qua Bind Mount).
 * **Issue:** Không có. (Đã xử lý xong lỗi phân quyền file do Docker sinh ra bằng `chown` và tối ưu hoá đường dẫn SQLite qua mount volume).
+* **Tài liệu lý thuyết:** Xem chi tiết nghiên cứu lý thuyết 3 keyword tại thư mục [docs/lythuyet_aspnet_linq_efcore.md](./docs/lythuyet_aspnet_linq_efcore.md).
+
 
 ---
 
