@@ -1,77 +1,43 @@
-# Nghiên cứu .NET 8 & Demo Minimal API
+# .NET Backend Stack - Intern Research & Training Repository
 
-Thư mục này chứa tài liệu nghiên cứu chi tiết về **.NET 8 & C# 12** cùng ứng dụng **Demo Web API** chạy trên Docker để phục vụ giai đoạn Training/Research của Intern.
-
----
-
-## 📂 Cấu trúc thư mục
-
-```text
-dotnet-learning_18-6/
-├── DemoApi/                    # Dự án Demo thực hành
-│   ├── DemoApi.csproj          # File dự án .NET 8, quản lý dependency (Swagger)
-│   ├── Program.cs              # Code API sử dụng C# 12 & .NET 8 (TimeProvider, Primary Constructor...)
-│   ├── appsettings.json        # Cấu hình log và host
-│   ├── Dockerfile              # Cấu hình Docker build tối ưu (Multi-stage)
-│   └── start.sh                # Shell script tự động build và chạy container
-└── docs/                       # Thư mục tài liệu lý thuyết
-    ├── dotnet8.docx            # Báo cáo lý thuyết (File Word gốc)
-    └── lythuyet_dotnet8.md     # Báo cáo lý thuyết nghiên cứu chi tiết (Markdown)
-```
+Chào mừng bạn đến với kho lưu trữ tài liệu nghiên cứu và thực hành của Intern về **.NET Backend Stack**. Kho lưu trữ này được tổ chức theo từng ngày học tập và nghiên cứu các công nghệ cốt lõi của Microsoft .NET 8.
 
 ---
 
-## 📝 Nội dung nghiên cứu chính (`docs/lythuyet_dotnet8.md`)
-Tài liệu nghiên cứu lý thuyết bao gồm 13 phần chi tiết về:
-* **Hệ sinh thái .NET 8** và phân biệt vai trò của các framework con (ASP.NET Core, EF Core...).
-* **Ứng dụng của .NET 8** trong các hệ thống doanh nghiệp (ERP, CRM, Core Banking...).
-* **Kiến trúc hoạt động** của CLR, BCL và cơ chế biên dịch JIT vs Native AOT.
-* **Các tính năng mới** nổi bật: C# 12 (Primary Constructors, Collection Expressions), TimeProvider, Keyed DI, Frozen Collections.
-* **Đánh giá ưu & nhược điểm** cùng các khó khăn thực tế khi tiếp cận công nghệ.
+## 📂 Danh mục các nội dung nghiên cứu (Table of Contents)
+
+### 📅 [Ngày 1: 18/06/2026] Tìm hiểu về .NET 8 & C# 12 (Minimal API)
+* **Chủ đề nghiên cứu:** Hệ sinh thái .NET 8, CLR, BCL, cơ chế biên dịch JIT/AOT, và các tính năng mới trong C# 12 (Primary Constructors, Collection Expressions...).
+* **Demo Thực hành:** Xây dựng một **Minimal API** đơn giản minh họa các tính năng mới của C# 12, đóng gói Docker hoàn chỉnh.
+* **Chi tiết tài liệu & hướng dẫn chạy:** 👉 [Xem chi tiết tại thư mục dotnet-learning_18-6](./dotnet-learning_18-6/README.md)
 
 ---
 
-## 🚀 Hướng dẫn cài đặt & Chạy ứng dụng Demo
-
-Dự án Demo được đóng gói hoàn toàn qua **Docker**, bạn không cần cài đặt .NET SDK trực tiếp trên máy chủ của mình để chạy thử.
-
-### 1. Khởi chạy nhanh bằng Script
-Di chuyển vào thư mục dự án và cấp quyền thực thi cho file `start.sh`, sau đó chạy script:
-
-```bash
-cd dotnet-learning_18-6/DemoApi/
-chmod +x start.sh
-./start.sh
-```
-
-*Script này sẽ tự động thực hiện việc biên dịch Docker image (`dotnet-api:latest`) và khởi chạy container map ra cổng `8080` của máy thật.*
+### 📅 [Ngày 2: 19/06/2026] ASP.NET Core Web API, LINQ & EF Core (Database First)
+* **Chủ đề nghiên cứu:** Thiết kế Controller-based Web API, Dependency Injection, lập trình truy vấn dữ liệu với LINQ (Deferred/Immediate Execution, toán tử gom nhóm, liên kết nâng cao) và Entity Framework Core Database First (Scaffolding).
+* **Demo Thực hành (Mini-project):** Xây dựng hệ thống quản lý danh mục, sản phẩm, và đặt hàng **E-Commerce API**. Tích hợp đầy đủ xử lý Transaction, kiểm tra tồn kho bằng Change Tracking, và xuất báo cáo thống kê nâng cao. Triển khai đồng bộ dữ liệu an toàn trên Docker qua Bind Mount.
+* **Chi tiết tài liệu & hướng dẫn chạy:** 👉 [Xem chi tiết tại thư mục aspdotnet-learning_19-6](./aspdotnet-learning_19-6/README.md)
 
 ---
 
-### 2. Kiểm tra & Test API
+## 🚀 Cách chạy toàn bộ dự án trên máy Local
 
-Ứng dụng demo tích hợp sẵn **Swagger** để tiện cho việc test trực quan trên browser.
+Bạn có thể chạy thử các dự án demo của từng ngày theo hướng dẫn cụ thể trong README.md của thư mục tương ứng. Cả hai dự án đều được đóng gói bằng Docker nên bạn chỉ cần cài đặt Docker/Docker Compose trên máy mà không cần cài đặt trực tiếp .NET SDK.
 
-* **Cách 1: Test qua Swagger UI (Trình duyệt Web)**
-  Truy cập đường link: 👉 [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
-  
-* **Cách 2: Test nhanh qua Command Line (`curl`)**
+* **Chạy Demo Ngày 1 (Cổng 8080):**
   ```bash
-  # Test Health check endpoint (Sử dụng TimeProvider của .NET 8)
-  curl -i http://localhost:8080/health
-
-  # Test Demo Collection Expression & Spread Operator (C# 12)
-  curl -i http://localhost:8080/demo/collections
-
-  # Test Demo Primary Constructor (C# 12)
-  curl -i http://localhost:8080/demo/user/Toan
+  cd dotnet-learning_18-6/DemoApi/
+  chmod +x start.sh
+  ./start.sh
+  ```
+* **Chạy Demo Ngày 2 (Cổng 8080 - Nhớ tắt demo Ngày 1 trước để tránh trùng cổng):**
+  ```bash
+  cd aspdotnet-learning_19-6/
+  docker compose up --build -d
   ```
 
 ---
 
-### 3. Dừng ứng dụng
-Khi đã test xong, để dừng và xóa container nhằm giải phóng tài nguyên:
+## 👤 Thông tin Intern thực hiện
+* **Họ tên:** Trà Đức Toàn
 
-```bash
-docker rm -f dotnet-api
-```

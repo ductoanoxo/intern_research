@@ -1,0 +1,15 @@
+services:
+  ecommerce-api:
+    image: ecommerce-api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ecommerce-api-container
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Data Source=ecommerce.db
+    volumes:
+      - ./ecommerce.db:/app/ecommerce.db
+    restart: always

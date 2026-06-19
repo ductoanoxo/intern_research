@@ -1,0 +1,16 @@
+## Ignore Visual Studio / VS Code temp files and folders
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Ignore build outputs
+bin/
+obj/
+publish/
+
+## Ignore OS generated files
+.DS_Store
+Thumbs.db
