@@ -21,7 +21,7 @@ Thư mục này chứa tài liệu nghiên cứu chi tiết về **.NET 8 & C# 1
 
 ---
 
-## 📝 Nội dung nghiên cứu chính (`docs/lythuyet_dotnet8.md`)
+## Nội dung nghiên cứu chính (`docs/lythuyet_dotnet8.md`)
 Tài liệu nghiên cứu lý thuyết bao gồm 13 phần chi tiết về:
 * **Hệ sinh thái .NET 8** và phân biệt vai trò của các framework con (ASP.NET Core, EF Core...).
 * **Ứng dụng của .NET 8** trong các hệ thống doanh nghiệp (ERP, CRM, Core Banking...).
@@ -31,7 +31,7 @@ Tài liệu nghiên cứu lý thuyết bao gồm 13 phần chi tiết về:
 
 ---
 
-## 🚀 Hướng dẫn cài đặt & Chạy ứng dụng Demo
+## Hướng dẫn cài đặt & Chạy ứng dụng Demo
 
 Dự án Demo được đóng gói hoàn toàn qua **Docker**, bạn không cần cài đặt .NET SDK trực tiếp trên máy chủ của mình để chạy thử.
 
@@ -53,8 +53,8 @@ chmod +x start.sh
 Ứng dụng demo tích hợp sẵn **Swagger** để tiện cho việc test trực quan trên browser.
 
 * **Cách 1: Test qua Swagger UI (Trình duyệt Web)**
-  Truy cập đường link: 👉 [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
-  
+  Truy cập đường link: [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
+
 * **Cách 2: Test nhanh qua Command Line (`curl`)**
   ```bash
   # Test Health check endpoint (Sử dụng TimeProvider của .NET 8)
