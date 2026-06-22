@@ -7,6 +7,7 @@
   3. **MediatR / Mediator Pattern** (Commands, Queries, Handlers, Pipeline Behaviors để xử lý Cross-cutting Concerns).
 * **Tiến độ tự đánh giá:** 100% 
 * **Issue:** none
+* **Mini project:** Xây dựng **Book Store API** (.NET 8 Web API kết hợp SQLite, Clean Architecture, MediatR CQRS, Pipeline Behaviors cho Logging và Validation, và Exception Handling Middleware).
 * **Tài liệu lý thuyết:** Xem chi tiết nghiên cứu lý thuyết 3 keyword tại thư mục [docs/lythuyet_solid_cleanarch_mediatr.md](./docs/lythuyet_solid_cleanarch_mediatr.md).
 
 ---
