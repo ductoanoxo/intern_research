@@ -5,8 +5,8 @@
   1. **SOLID Principles** (SRP, OCP, LSP, ISP, DIP áp dụng trong phát triển phần mềm).
   2. **Clean Architecture** (Cấu trúc phân lớp đồng tâm: Domain, Application, Infrastructure, Presentation/Api và Dependency Rule).
   3. **MediatR / Mediator Pattern** (Commands, Queries, Handlers, Pipeline Behaviors để xử lý Cross-cutting Concerns).
-* **Tiến độ tự đánh giá:** 100% (Đã hoàn thành xuất sắc phần nghiên cứu lý thuyết, thiết kế kiến trúc phân lớp chuẩn chỉnh và xây dựng thành công Mini Project chạy trên Docker).
-* **Issue:** Đã xử lý lỗi mount SQLite trong container (chuyển sang mount thư mục `./data` thay vì mount trực tiếp file đơn lẻ để tránh lỗi phân quyền và lock file).
+* **Tiến độ tự đánh giá:** 100% 
+* **Issue:** none
 * **Tài liệu lý thuyết:** Xem chi tiết nghiên cứu lý thuyết 3 keyword tại thư mục [docs/lythuyet_solid_cleanarch_mediatr.md](./docs/lythuyet_solid_cleanarch_mediatr.md).
 
 ---
