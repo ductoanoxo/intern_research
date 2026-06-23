@@ -1,0 +1,17 @@
+/app/src/DddCqrsJwtDemo.Infrastructure/obj/Debug/net8.0/DddCqrsJwtDemo.Infrastructure.csproj.AssemblyReference.cache
+/app/src/DddCqrsJwtDemo.Infrastructure/obj/Debug/net8.0/DddCqrsJwtDemo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/app/src/DddCqrsJwtDemo.Infrastructure/obj/Debug/net8.0/DddCqrsJwtDemo.Infrastructure.AssemblyInfoInputs.cache
+/app/src/DddCqrsJwtDemo.Infrastructure/obj/Debug/net8.0/DddCqrsJwtDemo.Infrastructure.AssemblyInfo.cs
+/app/src/DddCqrsJwtDemo.Infrastructure/obj/Debug/net8.0/DddCqrsJwtDemo.Infrastructure.csproj.CoreCompileInputs.cache
+/app/src/DddCqrsJwtDemo.Infrastructure/bin/Debug/net8.0/DddCqrsJwtDemo.Infrastructure.deps.json
+/app/src/DddCqrsJwtDemo.Infrastructure/bin/Debug/net8.0/DddCqrsJwtDemo.Infrastructure.dll
+/app/src/DddCqrsJwtDemo.Infrastructure/bin/Debug/net8.0/DddCqrsJwtDemo.Infrastructure.pdb
+/app/src/DddCqrsJwtDemo.Infrastructure/bin/Debug/net8.0/DddCqrsJwtDemo.Application.dll
+/app/src/DddCqrsJwtDemo.Infrastructure/bin/Debug/net8.0/DddCqrsJwtDemo.Domain.dll
+/app/src/DddCqrsJwtDemo.Infrastructure/bin/Debug/net8.0/DddCqrsJwtDemo.Application.pdb
+/app/src/DddCqrsJwtDemo.Infrastructure/bin/Debug/net8.0/DddCqrsJwtDemo.Domain.pdb
+/app/src/DddCqrsJwtDemo.Infrastructure/obj/Debug/net8.0/DddCqrsJ.574467CF.Up2Date
+/app/src/DddCqrsJwtDemo.Infrastructure/obj/Debug/net8.0/DddCqrsJwtDemo.Infrastructure.dll
+/app/src/DddCqrsJwtDemo.Infrastructure/obj/Debug/net8.0/refint/DddCqrsJwtDemo.Infrastructure.dll
+/app/src/DddCqrsJwtDemo.Infrastructure/obj/Debug/net8.0/DddCqrsJwtDemo.Infrastructure.pdb
+/app/src/DddCqrsJwtDemo.Infrastructure/obj/Debug/net8.0/ref/DddCqrsJwtDemo.Infrastructure.dll

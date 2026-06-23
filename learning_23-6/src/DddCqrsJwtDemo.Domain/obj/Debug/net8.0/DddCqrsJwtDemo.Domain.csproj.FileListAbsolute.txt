@@ -1,0 +1,11 @@
+/app/src/DddCqrsJwtDemo.Domain/bin/Debug/net8.0/DddCqrsJwtDemo.Domain.deps.json
+/app/src/DddCqrsJwtDemo.Domain/bin/Debug/net8.0/DddCqrsJwtDemo.Domain.dll
+/app/src/DddCqrsJwtDemo.Domain/bin/Debug/net8.0/DddCqrsJwtDemo.Domain.pdb
+/app/src/DddCqrsJwtDemo.Domain/obj/Debug/net8.0/DddCqrsJwtDemo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/app/src/DddCqrsJwtDemo.Domain/obj/Debug/net8.0/DddCqrsJwtDemo.Domain.AssemblyInfoInputs.cache
+/app/src/DddCqrsJwtDemo.Domain/obj/Debug/net8.0/DddCqrsJwtDemo.Domain.AssemblyInfo.cs
+/app/src/DddCqrsJwtDemo.Domain/obj/Debug/net8.0/DddCqrsJwtDemo.Domain.csproj.CoreCompileInputs.cache
+/app/src/DddCqrsJwtDemo.Domain/obj/Debug/net8.0/DddCqrsJwtDemo.Domain.dll
+/app/src/DddCqrsJwtDemo.Domain/obj/Debug/net8.0/refint/DddCqrsJwtDemo.Domain.dll
+/app/src/DddCqrsJwtDemo.Domain/obj/Debug/net8.0/DddCqrsJwtDemo.Domain.pdb
+/app/src/DddCqrsJwtDemo.Domain/obj/Debug/net8.0/ref/DddCqrsJwtDemo.Domain.dll

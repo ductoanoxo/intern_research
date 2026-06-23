@@ -1,0 +1,6 @@
+@DddCqrsJwtDemo.Api_HostAddress = http://localhost:5253
+
+GET {{DddCqrsJwtDemo.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
