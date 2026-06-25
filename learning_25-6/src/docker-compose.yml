@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  obe-api:
+    image: obe-evaluation-system-api:latest
+    build:
+      context: ./ObeEvaluationSystem.API
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./ObeEvaluationSystem.API/data:/app/data
+    restart: always
