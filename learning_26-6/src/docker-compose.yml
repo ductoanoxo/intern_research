@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  analytics-api:
+    build:
+      context: ./SmartLearningAnalytics.API
+      dockerfile: Dockerfile
+    container_name: smart_learning_analytics_api
+    ports:
+      - "8080:8080"
+    volumes:
+      - analytics_data:/app/data
+    restart: always
+
+volumes:
+  analytics_data:
