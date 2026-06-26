@@ -7,6 +7,7 @@
     3.  **Student Modeling (Mô hình hóa người học):** Nghiên cứu mô hình toán học Bayesian Knowledge Tracing (BKT) (Hidden Markov Model để theo dõi trạng thái tri thức) và Item Response Theory (IRT) (2PL logistic model đo năng lực tiềm ẩn $\theta$ của người học và đặc tính câu hỏi).
     4.  **Educational Data Mining (EDM):** Phân biệt với Learning Analytics; áp dụng thuật toán K-Means Clustering để phân cụm sinh viên và Decision Tree Classifier để dự báo nguy cơ học tập giải thích được (Explainable AI).
 *   **Tiến độ tự đánh giá:** 100%
+*   **Mini project:** DEMO: SMART LEARNING ANALYTICS ENGINE
 *   **Issue:** Không có.
 *   **Tài liệu lý thuyết:** Xem chi tiết nghiên cứu lý thuyết 4 keyword tại thư mục [docs/lythuyet_analytics_modeling_edm.md](./docs/lythuyet_analytics_modeling_edm.md).
 
