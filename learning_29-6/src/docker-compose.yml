@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  competency-api:
+    build:
+      context: ./StudentCompetency.API
+      dockerfile: Dockerfile
+    container_name: student_competency_api
+    ports:
+      - "8080:8080"
+    volumes:
+      - competency_data:/app/data
+    restart: always
+
+  simple-console-demo:
+    build:
+      context: ./SimpleConsoleDemo
+      dockerfile: Dockerfile
+    container_name: simple_console_demo
+
+volumes:
+  competency_data:
