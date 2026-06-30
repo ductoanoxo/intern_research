@@ -9,8 +9,8 @@
     5.  **Academic-to-Career Mapping**: Chạy ma trận trọng số đồ thị để ánh xạ điểm học tập (CS101, CS102, v.v.) sang các kỹ năng và năng lực công việc thực tế.
     6.  **Career Recommendation System**: Tính toán Cosine Similarity để so sánh Vector năng lực sinh viên với các Profile vị trí công việc, xếp hạng định hướng và chỉ ra khoảng cách kỹ năng (Skill Gaps).
 *   **Tiến độ tự đánh giá:** 100%
-*   **Mini project:** Simple Console Resume & Career Engine (Mã nguồn tinh gọn chạy trong 1 file Python duy nhất `main.py`).
-*   **Issue:** Không có.
+*   **Mini project:** Console Resume & Career Engine 
+*   **Issue:** Không có.    
 *   **Tài liệu lý thuyết:** Xem chi tiết nghiên cứu lý thuyết 6 keyword tại [docs/theory_resume_career.md](./docs/theory_resume_career.md).
 
 ---
