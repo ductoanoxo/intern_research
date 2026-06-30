@@ -1,0 +1,2 @@
+# No external dependencies required.
+# The portal runs entirely on Python's standard library.

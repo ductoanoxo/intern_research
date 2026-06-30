@@ -19,7 +19,7 @@
 
 Để phục vụ nghiên cứu nhanh trong 1 ngày, dự án này đã tối giản hóa tối đa cấu trúc mã nguồn thành một chương trình **Console C# duy nhất (Single-file `Program.cs`)** chạy trong môi trường Docker độc lập.
 
-## 📁 Cấu trúc thư mục Demo đơn giản
+## Cấu trúc thư mục Demo đơn giản
 ```
 learning_29-6/
 ├── README.md                          <- Báo cáo này
@@ -76,7 +76,7 @@ Khi chạy thành công, output sẽ hiển thị như sau:
 
 ```text
 ==========================================================================
-🚀 DEMO NGHIÊN CỨU: STUDENT COMPETENCY MODELING & INFERENCE (SINGLE-FILE)
+ DEMO NGHIÊN CỨU: STUDENT COMPETENCY MODELING & INFERENCE (SINGLE-FILE)
 ==========================================================================
 
 [Đầu vào] Học viên: Trần Thị B (SV002)
@@ -87,7 +87,7 @@ Khi chạy thành công, output sẽ hiển thị như sau:
 
 --- Đang thực hiện tính toán & suy luận kỹ năng ẩn... ---
 
-📊 KẾT QUẢ SUY LUẬN KỸ NĂNG ẨN:
+ KẾT QUẢ SUY LUẬN KỸ NĂNG ẨN:
 --------------------------------------------------------------------------
  Mã Kỹ Năng | Tên Kỹ Năng               | Trực tiếp | Suy luận | Hợp nhất (Cuối)
 --------------------------------------------------------------------------
@@ -95,17 +95,17 @@ Khi chạy thành công, output sẽ hiển thị như sau:
  SK-002     | Lập trình Hướng đối tượng (OOP) |      0.0% |    72.0% |         72.0%
  SK-003     | Phát triển Web API (API Dev) |     90.0% |    61.2% |         90.0%
 --------------------------------------------------------------------------
-💡 GIẢI THÍCH LOGIC:
+ GIẢI THÍCH LOGIC:
  * Học viên đạt 90% ở môn API Dev (SK-003). Hệ thống chạy suy luận lùi (Backward Inference)
    và xác định học viên đạt 72% ở môn OOP (SK-002) và 72% ở môn Basics (SK-001)
    dù học viên này chưa làm bài đánh giá trực tiếp nào cho 2 kỹ năng đó.
 
-👤 HỒ SƠ NĂNG LỰC ĐẦU RA (COMPETENCY PROFILE):
+ HỒ SƠ NĂNG LỰC ĐẦU RA (COMPETENCY PROFILE):
 --------------------------------------------------------------------------
  - Trục Năng lực Practical   :  81.0% [Thành thạo (Mastered)]
  - Trục Năng lực Cognitive   :  72.0% [Đang phát triển (Developing)]
 --------------------------------------------------------------------------
-📝 KHUYẾN NGHỊ HỌC TẬP (Pedagogical Guidance):
+ KHUYẾN NGHỊ HỌC TẬP (Pedagogical Guidance):
  -> [Đề xuất]: Kỹ năng nền tảng 'Lập trình Cơ bản' chưa đạt mức giỏi (hiện tại 72%). Học viên nên bổ sung thêm bài tập để làm chủ hoàn toàn.
 ==========================================================================
 ```
